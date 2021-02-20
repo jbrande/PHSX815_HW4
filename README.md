@@ -3,8 +3,11 @@
 ## Yoni edits for HW 4
 Editing CookieAnalysis.py to plot quantiles over histograms of analyzed cookie eating data.
 CookieAnalysis.py now takes three new arguments:
+
 -f (required) specifies the input filename
+
 -n (optional) specifies the number of quantiles (default 1)
+
 -scale (optional) if this is "log", the plot y-axis will be log scaled. if it is not present, or not "log", the plot y-axis will be scaled normally.
 
 The program saves the plot in the main directory as "analysis.jpg".
